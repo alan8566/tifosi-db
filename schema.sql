@@ -2,17 +2,6 @@
 
 USE tifosi;
 
--- Supprimer les tables si elles existent 
-DROP TABLE IF EXISTS focaccia_ingredient;
-DROP TABLE IF EXISTS menu_focaccia;
-DROP TABLE IF EXISTS achat;
-DROP TABLE IF EXISTS menu;
-DROP TABLE IF EXISTS focaccia;
-DROP TABLE IF EXISTS boisson;
-DROP TABLE IF EXISTS ingredient;
-DROP TABLE IF EXISTS client;
-DROP TABLE IF EXISTS marque;
-
 -- Table marque
 CREATE TABLE marque (
   id_marque INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
